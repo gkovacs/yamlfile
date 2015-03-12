@@ -1,0 +1,30 @@
+{
+  "name": "yamlfile",
+  "version": "1.0.0",
+  "description": "simple api to read and write yaml files",
+  "main": "yamlfile.js",
+  "dependencies": {
+    "js-yaml": "^3.2.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gkovacs/yamlfile.git"
+  },
+  "keywords": [
+    "yaml",
+    "read",
+    "write",
+    "sync",
+    "readFileSync"
+  ],
+  "author": "Geza Kovacs (http://github.com/gkovacs)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gkovacs/yamlfile/issues"
+  },
+  "homepage": "https://github.com/gkovacs/yamlfile"
+}
