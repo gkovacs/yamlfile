@@ -3,7 +3,7 @@
   var fs, jsYaml, readFileSync, writeFileSync;
   fs = require('fs');
   jsYaml = require('js-yaml');
-  readFileSync = function(filenname){
+  readFileSync = function(filename){
     return jsYaml.safeLoad(fs.readFileSync(filename, 'utf-8'));
   };
   writeFileSync = function(filename, data){

@@ -3,7 +3,7 @@ require! {
   'js-yaml'
 }
 
-readFileSync = (filenname) ->
+readFileSync = (filename) ->
   return jsYaml.safeLoad fs.readFileSync filename, 'utf-8'
 
 writeFileSync = (filename, data) ->

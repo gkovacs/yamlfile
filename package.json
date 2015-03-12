@@ -1,6 +1,6 @@
 {
   "name": "yamlfile",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simple api to read and write yaml files",
   "main": "yamlfile.js",
   "dependencies": {
